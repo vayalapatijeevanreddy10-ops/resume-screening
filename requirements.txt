@@ -6,4 +6,5 @@ joblib
 pdfplumber
 PyPDF2
 nltk
-regex
+python-docx
+
