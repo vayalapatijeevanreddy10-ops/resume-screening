@@ -17,7 +17,7 @@ st.divider()
 # ─── Load Model ────────────────────────────────────────
 @st.cache_resource
 def get_model():
-    return load_model('model/tfidf_model.pkl')
+    return load_model('tfidf_model.pkl')
 
 model = get_model()
 
